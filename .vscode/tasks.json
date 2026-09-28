@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "VoiceStudio: Start API backend",
+			"type": "shell",
+			"command": "bun",
+			"args": [
+				"run",
+				"dev:api"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "VoiceStudio: Start web UI",
+			"type": "shell",
+			"command": "bun",
+			"args": [
+				"run",
+				"dev:frontend"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
